@@ -1,0 +1,63 @@
+- !<AssetImportMetadata/f4e32f35-22a3-4bd4-afe0-89d68a4e6483>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 19202f56-d73a-428e-bb63-639021dca388
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 19202f56-d73a-428e-bb63-639021dca388
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 285ed6eb-34aa-4d68-be53-f6a6130c2fc2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/285ed6eb-34aa-4d68-be53-f6a6130c2fc2>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 6bab9a85-00d5-463b-a6c6-6b2f444d3dc1
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    angleBelowDeg: false
+    distanceCm: false
+    glideSpeed: false
+    settleDelaySec: false
+    stillThresholdDegPerSec: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - distanceCm: !<float> 100.000000
+      angleBelowDeg: !<float> 10.000000
+      settleDelaySec: 0.300000
+      stillThresholdDegPerSec: !<float> 30.000000
+      glideSpeed: !<float> 5.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">ShoulderCheckHeadFollow – lazy follow</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Settings</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float distanceCm = 100 {"hint":"Distance in front of the head, cm.", "widget":"slider", "min":40, "max":250, "step":5}'
+    - '// @input float angleBelowDeg = 10 {"hint":"Degrees below eye level.", "widget":"slider", "min":0, "max":40, "step":1}'
+    - '// @input float settleDelaySec = 0.3 {"hint":"Head must be still this long before the panel starts gliding, s.", "widget":"slider", "min":0, "max":1.5, "step":0.05}'
+    - "// @input float stillThresholdDegPerSec = 30 {\"hint\":\"Head turn speed below which the head counts as 'still', deg/s.\", \"widget\":\"slider\", \"min\":5, \"max\":120, \"step\":5}"
+    - '// @input float glideSpeed = 5 {"hint":"Glide responsiveness (higher = faster glide).", "widget":"slider", "min":1, "max":20, "step":0.5}'
+    - '// @ui {"widget":"group_end"}'

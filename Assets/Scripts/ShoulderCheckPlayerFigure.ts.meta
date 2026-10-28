@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/39dde0fa-c046-4b67-8876-f2a603b8f818>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5a71cadc-7dc0-402a-ba9d-08da7a901037
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5a71cadc-7dc0-402a-ba9d-08da7a901037
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 061ecede-08b6-4fd8-bab6-1b4f70c50700
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/061ecede-08b6-4fd8-bab6-1b4f70c50700>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: ab87deb2-2480-4980-8789-e6e23650a31f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    minLevel: false
+    role: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - role: passer
+      minLevel: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">ShoulderCheckPlayerFigure – one ghost player</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Settings</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input string role = "passer" {"hint":"Which player this is. Sets team (blue teammate / red opponent) and drill behaviour.", "widget":"combobox", "values":[{"label":"Passer (centre-back)", "value":"passer"}, {"label":"Opponent striker", "value":"oppStriker"}, {"label":"Presser (opponent)", "value":"presser"}, {"label":"Left winger", "value":"leftWinger"}, {"label":"Right winger", "value":"rightWinger"}, {"label":"Striker (teammate)", "value":"striker"}, {"label":"Opponent midfielder", "value":"oppMidfielder"}, {"label":"Opponent full-back", "value":"fullBack"}]}'
+    - '// @input float minLevel = 1 {"hint":"First level this player appears on (brief: L1 passer/presser/wingers/full-back, L2 midfielder, L3 striker, L4 opponent striker).", "widget":"slider", "min":1, "max":10, "step":1}'
+    - '// @ui {"widget":"group_end"}'

@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/f913fc36-8025-43db-afea-bdd5efd69829>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c2c6b576-254d-4a73-a42f-d8541f8d94e2
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c2c6b576-254d-4a73-a42f-d8541f8d94e2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 5ffa5acc-1f03-40c9-b253-6a4c9f7ccb9d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/5ffa5acc-1f03-40c9-b253-6a4c9f7ccb9d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: b7dd4412-d0d9-4f62-a70d-a701e2facef7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    fadeSec: false
+    pillHeightCm: false
+    pillWidthCm: false
+    textSize: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - pillWidthCm: !<float> 19.000000
+      pillHeightCm: 3.400000
+      textSize: !<float> 28.000000
+      fadeSec: 0.350000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">ShoulderCheckLevelStripUI – level pill</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Settings</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float pillWidthCm = 19 {"hint":"Pill width, cm.", "widget":"slider", "min":8, "max":40, "step":0.5}'
+    - '// @input float pillHeightCm = 3.4 {"hint":"Pill height, cm.", "widget":"slider", "min":2, "max":8, "step":0.1}'
+    - '// @input float textSize = 38 {"hint":"Text size.", "widget":"slider", "min":14, "max":60, "step":1}'
+    - '// @input float fadeSec = 0.3 {"hint":"Fade in/out time, s.", "widget":"slider", "min":0, "max":1.5, "step":0.05}'
+    - '// @ui {"widget":"group_end"}'

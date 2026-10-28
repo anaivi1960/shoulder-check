@@ -1,0 +1,710 @@
+- !<AssetImportMetadata/58213ad0-20ae-4235-890e-caabda6a3191>
+  ImportedAssetIds:
+    0a0b77b5e8084c1a: !<reference> 434ddfd2-7afb-4cc1-90c8-162580e5def6
+    0c81437ecd5c7747: !<reference> df2dd7ea-7a38-45d8-be33-6114a7d15dff
+    0f5b6efcf1d91f35: !<reference> 2709dea5-8a0f-43e6-abae-2a92b140015d
+    19ee3b75d8f6c114: !<reference> 787cad02-9813-4b1b-8707-cdb3de2799bc
+    1e80e6ee76cc52d9: !<reference> 1d7371de-1673-4945-af2b-581f42e1cd1e
+    26ba073d67b9d0dd: !<reference> 31608563-32cd-4498-8a06-296eaf0d1a46
+    2ae52e19aed3446b: !<reference> 67929bdd-52c8-4e43-93ab-f7328cac72d7
+    2dd399060262c22d: !<reference> 9269fedc-d340-42b6-a98b-63db0477129e
+    334807992f28c6e7: !<reference> 55843c27-2d04-41f3-b15d-7ba9bdbb5de8
+    48f17bc340dc82b8: !<reference> e0b3bf12-33ab-4676-aee4-993f1385f264
+    6240103a3a1911d2: !<reference> cf03d8a6-2c7c-4bc8-ab4a-317a303eaa79
+    657c264db4d38ac9: !<reference> 7e50ee3a-3739-40f8-ab3c-e6ac3a9caec3
+    6691858805049702: !<reference> 838aeaf0-fdab-472e-9ed4-67a12b616658
+    671f05d47d5b3168: !<reference> 5ee87324-7b81-4fa6-849e-81ee43d5aecb
+    6f298e0cf5119de7: !<reference> 240e0aae-c989-48e6-b55d-d5fc88f6af72
+    7075de73db06db61: !<reference> 29717c10-e863-4ed6-8ea9-e0003a4304b6
+    70e771aab801399a: !<reference> d82dd0ea-8d9b-489d-a5a7-b238818b3de5
+    71d61612deb067e8: !<reference> 38efce41-9a96-442e-9b81-dc7f2476ab51
+    72bfd7038687d3bc: !<reference> ce1b4d83-0038-41e1-b354-c3dd7ab4de4a
+    72f37159a8480f26: !<reference> fb46ef36-37f4-461a-a443-d2e3f7ca01c4
+    7adcd8af79015dd5: !<reference> 9fe2c845-988f-42b6-9276-430d40794fd8
+    88ab437fd121cc69: !<reference> 50aa67b8-05d9-4168-a9e7-1a7cea594839
+    8ab29c1d2e5e2aa1: !<reference> 11f20e42-41d4-4456-a6f7-e5891023d350
+    9d958c0a8350f429: !<reference> e7dd26c9-952d-4b17-a06e-33248cc73e98
+    9dd4b6cef4d062b5: !<reference> 3bb84cac-68ce-44b9-980e-e9d9f148e389
+    9dd4f80ffddfc87f: !<reference> b1593a88-8212-4d75-96f4-f24436cd4c58
+    Meshes/Footballer_idle: !<reference> 4228e8f5-c11b-4ada-b6b6-cac588f9b7c8
+    Meshes/Footballer_kick_0: !<reference> 566cd3ce-47a1-47b9-aa1d-c1404ac4e144
+    Meshes/Footballer_kick_1: !<reference> 80ed5d18-96c7-4a25-b003-21f75dbed91a
+    Meshes/Footballer_kick_2: !<reference> 9ed9d0c2-9b6d-44bc-9cd5-9371d3bbfb9d
+    Meshes/Footballer_run_00: !<reference> f89d6bd6-10b0-4189-aed4-7d7feb0578a6
+    Meshes/Footballer_run_01: !<reference> def9ca86-5863-4863-829b-3e1295122971
+    Meshes/Footballer_run_02: !<reference> c9c631da-49c1-4d8b-bd42-d872970290a3
+    Meshes/Footballer_run_03: !<reference> c9037f1e-cdbe-4993-a4cc-8ffec1a7958d
+    Meshes/Footballer_run_04: !<reference> 85f897f0-7b55-4d6e-a5aa-ca9f42d6c628
+    Meshes/Footballer_run_05: !<reference> 17c58e53-ae14-4faa-bfbd-cf4f34e9ba76
+    Meshes/Footballer_run_06: !<reference> 5128833e-ce8b-4799-90f8-60c18b7cd62f
+    Meshes/Footballer_run_07: !<reference> 8064fcc2-5089-4bcf-a01a-9251c8e067a3
+    Meshes/Footballer_run_08: !<reference> 136849a3-1830-4a5c-9798-5e2f9c7d7ee8
+    Meshes/Footballer_run_09: !<reference> fff4fcd3-0d51-4289-a06c-8a443f971059
+    Meshes/Footballer_run_10: !<reference> 5a1d8909-a979-428a-b983-2866efd9661e
+    Meshes/Footballer_run_11: !<reference> 85b9248f-fec0-4973-a679-b9b6a8f21cc0
+    Scene: !<reference> cc18d412-fdd1-433f-8ce5-f9de4d279331
+    a1a24c93c6f546a5: !<reference> 0d308840-f593-43b4-9ccf-080f000eeb7a
+    a9dedfbcd542b35f: !<reference> 9c377270-1865-45a9-8483-957247c2d546
+    ad52cb87f967d81f: !<reference> 68a562b8-b6e0-4566-9472-411303535ce4
+    af1c73d9e1cda6f0: !<reference> 48c93c03-39ea-438a-9fc5-0c5429d21011
+    bbb2a53e606fbfeb: !<reference> 846712c7-a90f-4171-894e-3ae9e301a986
+    d8b73195907752ed: !<reference> 725b2182-a2ec-43a2-bd1c-b05efd5b3f0c
+    de6691812d06776c: !<reference> 5415420f-5e53-4c98-a55b-e3b7af2b9f6d
+    dedb0cd1dd43612d: !<reference> 5389a746-93b7-4348-901e-cfc006587ec6
+    ed35be4bb94f7a26: !<reference> 43dddca2-1c0c-4b89-bd2c-c45a1c2d85bf
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> cc18d412-fdd1-433f-8ce5-f9de4d279331
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 26f7ec11-1205-4c76-b094-dbb3c29b7a34
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/0d308840-f593-43b4-6330-f7f0fff11485>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_07
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cf03d8a6-2c7c-4bc8-54b5-ce85cfc15586
+- !<SceneObject/11f20e42-41d4-4456-5908-1a76efdc2caf>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_05
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 838aeaf0-fdab-472e-612b-985ed49e99a7
+- !<RenderMeshVisual/1d7371de-1673-4945-50d4-a7e0bd1e32e1>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_04
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 85f897f0-7b55-4d6e-a5aa-ca9f42d6c628
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/240e0aae-c989-48e6-4aa2-2a037709508d>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_01
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> def9ca86-5863-4863-829b-3e1295122971
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/26f7ec11-1205-4c76-b094-dbb3c29b7a34>
+  Prototype: !<ObjectOwner/2ef005e8-8e49-4b7e-bcde-2034f5160428>
+    PackagePath: ""
+    objects:
+      - !<own> 31608563-32cd-4498-75f9-d69150f2e5b9
+- !<SceneObject/2709dea5-8a0f-43e6-5451-d56d4ebffea2>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_01
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 240e0aae-c989-48e6-4aa2-2a037709508d
+- !<SceneObject/29717c10-e863-4ed6-7156-1fffc5bcfb49>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_10
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5ee87324-7b81-4fa6-7b61-7e11bc2a5134
+- !<SceneObject/31608563-32cd-4498-75f9-d69150f2e5b9>
+  PrefabRemaps:
+    []
+  Name: FootballerPoses
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 50aa67b8-05d9-4168-5618-e58315a6b7c6
+  Components:
+    []
+- !<RenderMeshVisual/38efce41-9a96-442e-647e-2380db8954ae>
+  PrefabRemaps:
+    []
+  Name: Footballer_idle
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 4228e8f5-c11b-4ada-b6b6-cac588f9b7c8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/3bb84cac-68ce-44b9-67f1-16260eb71c76>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_08
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 725b2182-a2ec-43a2-42e3-4fa102a4c0f3
+- !<RenderMeshVisual/434ddfd2-7afb-4cc1-6f37-e9da7f1a2109>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_09
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> fff4fcd3-0d51-4289-a06c-8a443f971059
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/43dddca2-1c0c-4b89-42d3-3ba5e3d27a40>
+  PrefabRemaps:
+    []
+  Name: Footballer_kick_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 68a562b8-b6e0-4566-6b8d-beecfcaca31b
+- !<RenderMeshVisual/48c93c03-39ea-438a-603a-f3abd62defee>
+  PrefabRemaps:
+    []
+  Name: Footballer_kick_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 9ed9d0c2-9b6d-44bc-9cd5-9371d3bbfb9d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/50aa67b8-05d9-4168-5618-e58315a6b7c6>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7e50ee3a-3739-40f8-54c3-1953c563513c
+  Components:
+    []
+- !<SceneObject/5389a746-93b7-4348-6fe1-303ff9a78139>
+  PrefabRemaps:
+    []
+  Name: Footballer_idle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 38efce41-9a96-442e-647e-2380db8954ae
+- !<SceneObject/5415420f-5e53-4c98-5aa4-1c4850d46092>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_00
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ce1b4d83-0038-41e1-4cab-3c22854b21b5
+- !<SceneObject/55843c27-2d04-41f3-4ea2-84564244a217>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_06
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> df2dd7ea-7a38-45d8-41cc-9eeb582ea200
+- !<RenderMeshVisual/5ee87324-7b81-4fa6-7b61-7e11bc2a5134>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_10
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 5a1d8909-a979-428a-b983-2866efd9661e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/67929bdd-52c8-4e43-6c54-08cd73538d28>
+  PrefabRemaps:
+    []
+  Name: Footballer_kick_1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e7dd26c9-952d-4b17-5f91-ccdb7338c167
+- !<RenderMeshVisual/68a562b8-b6e0-4566-6b8d-beecfcaca31b>
+  PrefabRemaps:
+    []
+  Name: Footballer_kick_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 566cd3ce-47a1-47b9-aa1d-c1404ac4e144
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/725b2182-a2ec-43a2-42e3-4fa102a4c0f3>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_08
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 136849a3-1830-4a5c-9798-5e2f9c7d7ee8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/787cad02-9813-4b1b-78f8-324c21d86643>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_11
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 85b9248f-fec0-4973-a679-b9b6a8f21cc0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7e50ee3a-3739-40f8-54c3-1953c563513c>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5389a746-93b7-4348-6fe1-303ff9a78139
+    - !<own> 43dddca2-1c0c-4b89-42d3-3ba5e3d27a40
+    - !<own> 67929bdd-52c8-4e43-6c54-08cd73538d28
+    - !<own> 9fe2c845-988f-42b6-6d89-bcf2bf86b027
+    - !<own> 5415420f-5e53-4c98-5aa4-1c4850d46092
+    - !<own> 2709dea5-8a0f-43e6-5451-d56d4ebffea2
+    - !<own> 846712c7-a90f-4171-76b1-c5161cfe5679
+    - !<own> 9c377270-1865-45a9-7b7c-6a8db83d2ab9
+    - !<own> b1593a88-8212-4d75-690b-0dbbc932b3a7
+    - !<own> 11f20e42-41d4-4456-5908-1a76efdc2caf
+    - !<own> 55843c27-2d04-41f3-4ea2-84564244a217
+    - !<own> 0d308840-f593-43b4-6330-f7f0fff11485
+    - !<own> 3bb84cac-68ce-44b9-67f1-16260eb71c76
+    - !<own> d82dd0ea-8d9b-489d-5a58-4dc77e74c21a
+    - !<own> 29717c10-e863-4ed6-7156-1fffc5bcfb49
+    - !<own> e0b3bf12-33ab-4676-511b-66c0ec7a0d9b
+  Components:
+    []
+- !<RenderMeshVisual/838aeaf0-fdab-472e-612b-985ed49e99a7>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_05
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 17c58e53-ae14-4faa-bfbd-cf4f34e9ba76
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/846712c7-a90f-4171-76b1-c5161cfe5679>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_02
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9269fedc-d340-42b6-5674-9c24fb88ed61
+- !<RenderMeshVisual/9269fedc-d340-42b6-5674-9c24fb88ed61>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_02
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> c9c631da-49c1-4d8b-bd42-d872970290a3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/9c377270-1865-45a9-7b7c-6a8db83d2ab9>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_03
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fb46ef36-37f4-461a-5bbc-2d1c0835fe3b
+- !<SceneObject/9fe2c845-988f-42b6-6d89-bcf2bf86b027>
+  PrefabRemaps:
+    []
+  Name: Footballer_kick_2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 48c93c03-39ea-438a-603a-f3abd62defee
+- !<SceneObject/b1593a88-8212-4d75-690b-0dbbc932b3a7>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_04
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1d7371de-1673-4945-50d4-a7e0bd1e32e1
+- !<RenderMeshVisual/ce1b4d83-0038-41e1-4cab-3c22854b21b5>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_00
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> f89d6bd6-10b0-4189-aed4-7d7feb0578a6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/cf03d8a6-2c7c-4bc8-54b5-ce85cfc15586>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_07
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 8064fcc2-5089-4bcf-a01a-9251c8e067a3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d82dd0ea-8d9b-489d-5a58-4dc77e74c21a>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_09
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 434ddfd2-7afb-4cc1-6f37-e9da7f1a2109
+- !<RenderMeshVisual/df2dd7ea-7a38-45d8-41cc-9eeb582ea200>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_06
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 5128833e-ce8b-4799-90f8-60c18b7cd62f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/e0b3bf12-33ab-4676-511b-66c0ec7a0d9b>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_11
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 787cad02-9813-4b1b-78f8-324c21d86643
+- !<RenderMeshVisual/e7dd26c9-952d-4b17-5f91-ccdb7338c167>
+  PrefabRemaps:
+    []
+  Name: Footballer_kick_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 80ed5d18-96c7-4a25-b003-21f75dbed91a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/fb46ef36-37f4-461a-5bbc-2d1c0835fe3b>
+  PrefabRemaps:
+    []
+  Name: Footballer_run_03
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> c9037f1e-cdbe-4993-a4cc-8ffec1a7958d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

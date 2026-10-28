@@ -1,0 +1,66 @@
+- !<AssetImportMetadata/5da83e9d-0d3d-4f8b-9100-dfdb5a064cde>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> fc41b31c-ef83-4df9-91b4-a6e482e88031
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> fc41b31c-ef83-4df9-91b4-a6e482e88031
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6a64ca0d-0660-4cce-9e6a-40510da63d9a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/6a64ca0d-0660-4cce-9e6a-40510da63d9a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: b36353a6-cdaa-4ddf-9a78-c64316908cd6
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    cardHeightCm: false
+    cardWidthCm: false
+    cornerCm: false
+    fadeSec: false
+    smallSize: false
+    titleSize: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - cardWidthCm: !<float> 28.000000
+      cardHeightCm: 8.500000
+      cornerCm: 1.400000
+      titleSize: !<float> 44.000000
+      smallSize: !<float> 30.000000
+      fadeSec: 0.350000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">ShoulderCheckResultPanelUI – result card</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Settings</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - "// @input float cardWidthCm = 28 {\"hint\":\"Card width, cm (at the 1 m head-follow distance; ~16 deg keeps it inside the glasses' view).\", \"widget\":\"slider\", \"min\":16, \"max\":50, \"step\":0.5}"
+    - '// @input float cardHeightCm = 8.5 {"hint":"Card height, cm.", "widget":"slider", "min":5, "max":20, "step":0.25}'
+    - '// @input float cornerCm = 1.4 {"hint":"Corner radius, cm.", "widget":"slider", "min":0, "max":4, "step":0.1}'
+    - '// @input float titleSize = 62 {"hint":"Result line text size.", "widget":"slider", "min":20, "max":80, "step":1}'
+    - '// @input float smallSize = 40 {"hint":"Label line (scans · decision) and tip text size.", "widget":"slider", "min":14, "max":60, "step":1}'
+    - '// @input float fadeSec = 0.3 {"hint":"Fade in/out time, s.", "widget":"slider", "min":0, "max":1.5, "step":0.05}'
+    - '// @ui {"widget":"group_end"}'

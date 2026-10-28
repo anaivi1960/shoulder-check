@@ -1,0 +1,249 @@
+- !<AssetImportMetadata/89002ebb-dced-4f13-af6e-d0444c47e50c>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9718dd6b-a782-4874-899f-1cc8b428084e
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9718dd6b-a782-4874-899f-1cc8b428084e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 9cb33d3d-2d2d-4f6b-94d6-f016ff5521d3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/9cb33d3d-2d2d-4f6b-94d6-f016ff5521d3>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: bcb96706-ee55-4c00-9803-fc25a74d458c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    amberColor: false
+    autoStart: false
+    ball: false
+    ballColor: false
+    basePassSec: false
+    betweenRoundsSec: false
+    correctToLevelUp: false
+    debugColliders: false
+    feedbackRoot: false
+    footballerMesh: false
+    foundColor: false
+    freeManShowCm: false
+    freeRingColor: false
+    fullBack: false
+    hoverColor: false
+    kickPoses: false
+    leftWinger: false
+    levelStrip: false
+    logEvents: false
+    markGapCm: false
+    markerHeadStart: false
+    markerLineColor: false
+    minPassSec: false
+    oppMidfielder: false
+    oppStriker: false
+    opponentColor: false
+    outcomeHoldSec: false
+    passLineColor: false
+    passVolume: false
+    passer: false
+    pickTimeDeviceSec: false
+    pickTimeEditorSec: false
+    pitchRoot: false
+    presser: false
+    presserCloseCm: false
+    redColor: false
+    replaySec: false
+    resultHoldSec: false
+    resultPanel: false
+    resultVolume: false
+    rightWinger: false
+    ringBaseRadiusCm: false
+    ringGrowthPerMeterCm: false
+    runPoses: false
+    runScanSelfTest: false
+    scanMaxHoldSec: false
+    scanMinYawDeg: false
+    scanReturnDeg: false
+    shapingSec: false
+    showExtras: false
+    silhouetteColor: false
+    speedupPerLevel: false
+    striker: false
+    teammateColor: false
+    viewHalfHeightDeg: false
+    viewHalfWidthDeg: false
+    wrongInRowToLevelDown: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - passer: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      oppStriker: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      presser: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      leftWinger: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      rightWinger: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+      striker: !<MappingBased.AssignableType_6> 00000000-0000-0000-0000-000000000000
+      oppMidfielder: !<MappingBased.AssignableType_7> 00000000-0000-0000-0000-000000000000
+      fullBack: !<MappingBased.AssignableType_8> 00000000-0000-0000-0000-000000000000
+      levelStrip: !<MappingBased.AssignableType_9> 00000000-0000-0000-0000-000000000000
+      resultPanel: !<MappingBased.AssignableType_10> 00000000-0000-0000-0000-000000000000
+      pitchRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ball: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      feedbackRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      footballerMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      runPoses: !<reference.RenderMesh[]>
+        []
+      kickPoses: !<reference.RenderMesh[]>
+        []
+      showExtras: true
+      basePassSec: !<float> 2.000000
+      speedupPerLevel: 0.100000
+      minPassSec: !<float> 1.000000
+      correctToLevelUp: !<float> 2.000000
+      wrongInRowToLevelDown: !<float> 2.000000
+      pickTimeEditorSec: !<float> 4.000000
+      pickTimeDeviceSec: !<float> 3.000000
+      scanMinYawDeg: !<float> 60.000000
+      scanReturnDeg: !<float> 30.000000
+      scanMaxHoldSec: 1.500000
+      viewHalfWidthDeg: 18.500000
+      viewHalfHeightDeg: !<float> 16.000000
+      betweenRoundsSec: !<float> 2.000000
+      shapingSec: 0.600000
+      outcomeHoldSec: 1.200000
+      replaySec: 2.500000
+      resultHoldSec: 1.500000
+      markGapCm: !<float> 150.000000
+      markerHeadStart: 0.500000
+      presserCloseCm: !<float> 160.000000
+      freeManShowCm: !<float> 120.000000
+      teammateColor: !<Vec4> {x: 0.300000, y: 0.600000, z: 1.000000, w: 0.600000}
+      opponentColor: !<Vec4> {x: 1.000000, y: 0.300000, z: 0.250000, w: 0.600000}
+      silhouetteColor: !<Vec4> {x: 0.720000, y: 0.720000, z: 0.750000, w: 0.600000}
+      hoverColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.850000}
+      foundColor: !<Vec4> {x: 0.350000, y: 0.650000, z: 1.000000, w: 0.950000}
+      amberColor: !<Vec4> {x: 1.000000, y: 0.720000, z: 0.150000, w: 0.900000}
+      redColor: !<Vec4> {x: 1.000000, y: 0.200000, z: 0.150000, w: 0.950000}
+      freeRingColor: !<Vec4> {x: 0.300000, y: 1.000000, z: 0.400000, w: 0.900000}
+      markerLineColor: !<Vec4> {x: 1.000000, y: 0.450000, z: 0.350000, w: 0.850000}
+      passLineColor: !<Vec4> {x: 0.750000, y: 0.950000, z: 1.000000, w: 0.550000}
+      ballColor: !<Vec4> {x: 0.950000, y: 0.950000, z: 0.950000, w: 1.000000}
+      ringBaseRadiusCm: !<float> 45.000000
+      ringGrowthPerMeterCm: 2.200000
+      passVolume: 0.800000
+      resultVolume: 0.600000
+      runScanSelfTest: true
+      logEvents: true
+      debugColliders: false
+      autoStart: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">ShoulderCheckMain – scanning drill orchestrator</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">References</span>"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - "// @input AssignableType_1 passer {\"hint\":\"Passer (centre-back), 12 o'clock\"}"
+    - "// @input AssignableType_2 oppStriker {\"hint\":\"Opponent striker, 11 o'clock\"}"
+    - "// @input AssignableType_3 presser {\"hint\":\"Presser (opponent), 5 o'clock\"}"
+    - "// @input AssignableType_4 leftWinger {\"hint\":\"Left winger (teammate), 9 o'clock\"}"
+    - "// @input AssignableType_5 rightWinger {\"hint\":\"Right winger (teammate), 3 o'clock\"}"
+    - "// @input AssignableType_6 striker {\"hint\":\"Striker (teammate), 6 o'clock\"}"
+    - "// @input AssignableType_7 oppMidfielder {\"hint\":\"Opponent midfielder, 7 o'clock\"}"
+    - "// @input AssignableType_8 fullBack {\"hint\":\"Opponent full-back, 2 o'clock\"}"
+    - '// @input AssignableType_9 levelStrip {"hint":"Level + scan strip UI module"}'
+    - '// @input AssignableType_10 resultPanel {"hint":"Result panel UI module"}'
+    - '// @input SceneObject pitchRoot {"hint":"Pitch root (floor level, centred on the receiver). Players, Ball and Feedback live under it."}'
+    - '// @input SceneObject ball {"hint":"Ball SceneObject (child of the Pitch root); the ball visual is built under it."}'
+    - '// @input SceneObject feedbackRoot {"hint":"Feedback SceneObject (child of the Pitch root); rings and lines are built under it."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - "// @ui {\"widget\":\"label\", \"label\":\"<span style=\\\"color: #60A5FA;\\\">Players' look</span>\"}"
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"Players' look\"}"
+    - '// @input Asset.RenderMesh footballerMesh {"hint":"Footballer ready-stance mesh (Footballer_idle in Assets/Models/FootballerPoses.glb, built in Blender). Empty = old ghost figures."}'
+    - '// @input Asset.RenderMesh[] runPoses {"hint":"Run cycle frames in order (Footballer_run_00..11). Empty = players glide."}'
+    - '// @input Asset.RenderMesh[] kickPoses {"hint":"Kick frames: wind-up, strike, follow-through (Footballer_kick_0..2). Played by the passer."}'
+    - '// @input bool showExtras = true {"hint":"Fill the pitch to 22 with background players (never pickable, keep their kits at the freeze)."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Pace and levels</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Pace and levels"}'
+    - '// @input float basePassSec = 2 {"hint":"Ball travel time at level 1, s (brief: 1.5-2 s over 15 m).", "widget":"slider", "min":1, "max":3, "step":0.05}'
+    - '// @input float speedupPerLevel = 0.1 {"hint":"Pass gets this fraction faster each level (0.1 = 10%).", "widget":"slider", "min":0, "max":0.3, "step":0.01}'
+    - '// @input float minPassSec = 1 {"hint":"Fastest allowed pass, s (brief floor: 1.0 s).", "widget":"slider", "min":0.6, "max":2, "step":0.05}'
+    - '// @input float correctToLevelUp = 2 {"hint":"Correct answers needed to move up a level.", "widget":"slider", "min":1, "max":5, "step":1}'
+    - '// @input float wrongInRowToLevelDown = 2 {"hint":"Wrong answers in a row that drop you a level.", "widget":"slider", "min":1, "max":5, "step":1}'
+    - '// @input float pickTimeEditorSec = 4 {"hint":"Pick timer in the Lens Studio preview, s.", "widget":"slider", "min":1, "max":10, "step":0.5}'
+    - '// @input float pickTimeDeviceSec = 3 {"hint":"Pick timer on real glasses, s.", "widget":"slider", "min":1, "max":10, "step":0.5}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Scan rules</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Scan rules"}'
+    - '// @input float scanMinYawDeg = 60 {"hint":"Head must turn at least this far from the ball for a scan, deg.", "widget":"slider", "min":30, "max":120, "step":1}'
+    - '// @input float scanReturnDeg = 30 {"hint":"Head must come back within this angle of the ball (also re-arms the next scan), deg.", "widget":"slider", "min":5, "max":50, "step":1}'
+    - "// @input float scanMaxHoldSec = 1.5 {\"hint\":\"Turns held longer than this (from crossing the min angle to coming back) don't count, s.\", \"widget\":\"slider\", \"min\":0.5, \"max\":4, \"step\":0.1}"
+    - "// @input float viewHalfWidthDeg = 18.5 {\"hint\":\"Half-width of the central view window used for 'did you look at him', deg.\", \"widget\":\"slider\", \"min\":5, \"max\":40, \"step\":0.5}"
+    - '// @input float viewHalfHeightDeg = 16 {"hint":"Half-height of the central view window, deg.", "widget":"slider", "min":5, "max":40, "step":0.5}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Round timing and movement</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Round timing and movement"}'
+    - '// @input float betweenRoundsSec = 2 {"hint":"Pause between rounds with the level strip showing, s.", "widget":"slider", "min":0.5, "max":6, "step":0.1}'
+    - '// @input float shapingSec = 0.6 {"hint":"Passer shapes to pass for this long before striking the ball, s (scan window opens here).", "widget":"slider", "min":0.2, "max":2, "step":0.05}'
+    - '// @input float outcomeHoldSec = 1.2 {"hint":"Outcome feedback hold before the replay, s.", "widget":"slider", "min":0.3, "max":4, "step":0.1}'
+    - '// @input float replaySec = 2.5 {"hint":"Replay length (free man ringed), s.", "widget":"slider", "min":1, "max":4, "step":0.1}'
+    - '// @input float resultHoldSec = 1.5 {"hint":"Result stays up this long after the replay, s.", "widget":"slider", "min":0.5, "max":6, "step":0.1}'
+    - '// @input float markGapCm = 150 {"hint":"How close a marker ends up to his man, goal-side, cm.", "widget":"slider", "min":50, "max":400, "step":10}'
+    - '// @input float markerHeadStart = 0.5 {"hint":"Fraction of the way a marker already is at round start (0 = at home, 1 = already marking).", "widget":"slider", "min":0, "max":1, "step":0.05}'
+    - '// @input float presserCloseCm = 160 {"hint":"When not marking, the presser closes to this distance behind you, cm.", "widget":"slider", "min":60, "max":300, "step":10}'
+    - '// @input float freeManShowCm = 120 {"hint":"Free man steps wider to show for the ball, cm.", "widget":"slider", "min":0, "max":400, "step":10}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Colours</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Colours"}'
+    - '// @input vec4 teammateColor = "{0.3,0.6,1,0.6}" {"hint":"Teammates (translucent blue).", "widget":"color"}'
+    - '// @input vec4 opponentColor = "{1,0.3,0.25,0.6}" {"hint":"Opponents (translucent red).", "widget":"color"}'
+    - '// @input vec4 silhouetteColor = "{0.72,0.72,0.75,0.6}" {"hint":"Identical grey silhouette at the freeze.", "widget":"color"}'
+    - '// @input vec4 hoverColor = "{1,1,1,0.85}" {"hint":"Thin hover outline on the silhouette under the pointer.", "widget":"color"}'
+    - '// @input vec4 foundColor = "{0.35,0.65,1,0.95}" {"hint":"Solid blue on the free man when found.", "widget":"color"}'
+    - '// @input vec4 amberColor = "{1,0.72,0.15,0.9}" {"hint":"Amber flash for a marked teammate.", "widget":"color"}'
+    - '// @input vec4 redColor = "{1,0.2,0.15,0.95}" {"hint":"Red flash for an opponent pick / marker highlight.", "widget":"color"}'
+    - '// @input vec4 freeRingColor = "{0.3,1,0.4,0.9}" {"hint":"Green ring on the free man.", "widget":"color"}'
+    - '// @input vec4 markerLineColor = "{1,0.45,0.35,0.85}" {"hint":"Line from a marker to the man he marks.", "widget":"color"}'
+    - '// @input vec4 passLineColor = "{0.75,0.95,1,0.55}" {"hint":"Ghost pass line from you to the free man.", "widget":"color"}'
+    - '// @input vec4 ballColor = "{0.95,0.95,0.95,1}" {"hint":"Ball colour.", "widget":"color"}'
+    - '// @input float ringBaseRadiusCm = 45 {"hint":"Ground ring radius at 0 m, cm.", "widget":"slider", "min":20, "max":120, "step":1}'
+    - '// @input float ringGrowthPerMeterCm = 2.2 {"hint":"Ground ring grows this much per metre of distance, cm (far players read on a glance).", "widget":"slider", "min":0, "max":6, "step":0.1}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Audio</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Audio"}'
+    - '// @input float passVolume = 0.8 {"hint":"Volume of the soft pass sound.", "widget":"slider", "min":0, "max":1, "step":0.05}'
+    - '// @input float resultVolume = 0.6 {"hint":"Volume of the result chimes.", "widget":"slider", "min":0, "max":1, "step":0.05}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Debug</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Debug"}'
+    - '// @input bool runScanSelfTest = true {"hint":"Run the scan-counter self-test at start and print PASS/FAIL to the log."}'
+    - '// @input bool logEvents = true {"hint":"Print round events (freeze, picks, scans, outcomes) to the log."}'
+    - '// @input bool debugColliders {"hint":"Wireframe the pick colliders (takes effect on preview restart)."}'
+    - '// @input bool autoStart = true {"hint":"Start rounds automatically. Off = wait for global.shoulderCheck.start()."}'
+    - '// @ui {"widget":"group_end"}'
