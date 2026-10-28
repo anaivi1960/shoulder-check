@@ -3,7 +3,7 @@
 **Tagline:** Train the habit every coach shouts for: check your shoulders before the ball arrives. A scanning drill for Spectacles.
 
 **Video:** [YouTube link — upload `devpost/ShoulderCheck_demo.mp4`, 1:47, narrated]
-**Repo:** [GitHub link — Lens Studio project + this `devpost/` folder]
+**Repo:** https://github.com/anaivi1960/shoulder-check
 
 ---
 
